@@ -8,6 +8,7 @@ body {
   background: linear-gradient(to right, rgba(46,0,8,1) 0%, rgba(138,0,0,1) 4%, rgba(35,0,5,1) 96%, rgba(31,0,5,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e0008', endColorstr='#1f0005', GradientType=1 );
   color: white;
+  font-family: Sonsie One;
 }
 
 .card {
@@ -27,14 +28,34 @@ body {
   font-size: 40px;
 }
 
-.imported-font {
-  font-family: Sonsie One;
+.oneClicked {
+  background-color: black;
 }
 
-.cards p {
- display: none;
+.twoClicked {
+ background-color: white;
 }
 
-p {
-  text-align: center;
+.threeClicked {
+  background-color: purple;
+}
+
+.fourClicked {
+  background-color: green;
+}
+
+.fiveClicked {
+  background-color: blue;
+}
+
+.sixClicked {
+  background-color: yellow;
+}
+
+.sevenClicked {
+  background-color: cyan;
+}
+
+.eightClicked {
+  background-color: brown;
 }
